@@ -1,10 +1,4 @@
 #Yomikaze
-!Stars (→ img.shields.io)
-!Downloads (→ img.shields.io)
-!Version (→ img.shields.io)
-!Platforms (→ img.shields.io)
-!Swift (→ img.shields.io)
-!Rust (→ img.shields.io)
 
 **読み風** · A free manga reader for iPhone, iPad and Windows.
 
