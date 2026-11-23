@@ -1,0 +1,62 @@
+name: Yomikaze
+
+options:
+  bundleIdPrefix: dev.kairo
+  deploymentTarget:
+    iOS: "26.1"
+  createIntermediateGroups: true
+  developmentLanguage: en
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "0.2.7"
+    CURRENT_PROJECT_VERSION: "23"
+
+targets:
+  Yomikaze:
+    type: application
+    platform: iOS
+    sources:
+      - path: Yomikaze
+    info:
+      path: Yomikaze/Info.plist
+      properties:
+        CFBundleDisplayName: Yomikaze
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        ITSAppUsesNonExemptEncryption: false
+        NSFaceIDUsageDescription: Yomikaze uses Face ID to unlock the app when the app lock is turned on.
+        AniListClientID: $(ANILIST_CLIENT_ID)
+        NSPhotoLibraryAddUsageDescription: Yomikaze saves share cards to your photo library when you choose Save Image.
+        UIApplicationSupportsIndirectInputEvents: true
+        # an iphone is held upright only, the reader and the backgrounds are made for that
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        # every orientation on ipad, which split view and stage manager need
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.kairo.yomikaze
+        # your own client id from https://anilist.co/settings/developer, empty turns anilist off
+        ANILIST_CLIENT_ID: ""
+        PRODUCT_NAME: Yomikaze
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: YES
+
+schemes:
+  Yomikaze:
+    build:
+      targets:
+        Yomikaze: all
+    run:
+      config: Debug
+    archive:
+      config: Release

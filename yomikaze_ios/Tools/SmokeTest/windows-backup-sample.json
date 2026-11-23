@@ -1,0 +1,53 @@
+{
+  "format": "yomikaze-backup",
+  "version": 1,
+  "app": "windows",
+  "appVersion": "0.2.5",
+  "exportedAt": 1794689963,
+  "manga": [
+    {
+      "mangaId": "M1",
+      "title": "One Piece",
+      "author": "ODA",
+      "status": "Ongoing",
+      "kind": "Manga",
+      "inLibrary": true,
+      "dateAdded": 1794689963,
+      "hasHistory": true,
+      "lastReadAt": 1794689963,
+      "lastChapterId": "CH1",
+      "lastChapterName": "Chapter 1",
+      "lastPage": 13,
+      "lastPageCount": 57,
+      "category": "Reading"
+    }
+  ],
+  "progress": [
+    {
+      "chapterId": "CH1",
+      "mangaId": "M1",
+      "chapterName": "Chapter 1",
+      "page": 13,
+      "pageCount": 57,
+      "completed": false,
+      "updatedAt": 1794689963
+    }
+  ],
+  "categories": [
+    "Reading"
+  ],
+  "recentSearches": [],
+  "settings": {
+    "accent": "yoru",
+    "customAccent": "#7D73FF",
+    "appearance": "dark",
+    "readerMode": "pagedRTL",
+    "tapZones": true,
+    "readerBackground": "black",
+    "readerDim": 0.0,
+    "readerGap": false,
+    "keepAwake": true,
+    "showAdult": false,
+    "librarySort": "recentlyAdded"
+  }
+}

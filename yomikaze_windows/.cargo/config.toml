@@ -1,0 +1,3 @@
+[target.x86_64-pc-windows-msvc]
+# static c runtime so the exe runs on any windows pc without extra installs
+rustflags = ["-C", "target-feature=+crt-static"]
