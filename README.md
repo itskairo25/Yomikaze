@@ -1,3 +1,4 @@
+#Yomikaze
 !Stars (→ img.shields.io)
 !Downloads (→ img.shields.io)
 !Version (→ img.shields.io)
@@ -11,9 +12,9 @@ Yomikaze lets you browse, read and download manga from the WeebCentral catalog. 
 reading progress and settings stay on your own device. There are no accounts, no ads and no tracking.
 
 <p align="center">
-  <img src="images/ios.png" alt="Yomikaze on iPhone" height="480">
+  <img src="ios.png" alt="Yomikaze on iPhone" height="480">
   &nbsp;&nbsp;
-  <img src="images/windows.png" alt="Yomikaze on Windows" height="480">
+  <img src="windows.png" alt="Yomikaze on Windows" height="480">
 </p>
 
 ## Features
