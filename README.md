@@ -1,5 +1,12 @@
 # Yomikaze
 
+![Stars](https://img.shields.io/github/stars/itskairo25/Yomikaze)
+![Downloads](https://img.shields.io/github/downloads/itskairo25/Yomikaze/total)
+![Version](https://img.shields.io/badge/version-0.2.7%20hotfix-blueviolet)
+![Platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20iPadOS%20%7C%20Windows-lightgrey)
+![Swift](https://img.shields.io/badge/Swift-SwiftUI-orange?logo=swift&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-egui-b7410e?logo=rust&logoColor=white)
+
 **読み風** · A free manga reader for iPhone, iPad and Windows.
 
 Yomikaze lets you browse, read and download manga from the WeebCentral catalog. Your library,
