@@ -12,6 +12,8 @@
 Yomikaze lets you browse, read and download manga from the WeebCentral catalog. Your library,
 reading progress and settings stay on your own device. There are no accounts, no ads and no tracking.
 
+<a href="https://www.producthunt.com/products/yomikaze?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-yomikaze" target="_blank" rel="noopener noreferrer"><img alt="Yomikaze - Open-source manga reader for Windows and iOS | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1331132&amp;theme=dark&amp;t=1795719400550"></a>
+
 <p align="center">
   <img src="ios.png" alt="Yomikaze on iPhone" height="480">
   &nbsp;&nbsp;
